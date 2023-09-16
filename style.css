@@ -1,0 +1,66 @@
+.wrapper {
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    font-family: Gilroy;
+}
+.logo-info {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 33px;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 42px;
+}
+.tel {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 60px;
+    margin-left: 9px;
+    vertical-align: top;
+}
+.pic:last-child {
+    margin-left: 20px;
+}
+.link-form {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    margin-top: 59px;
+}
+.active-link, .link {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.link {
+    padding-left: 40px;
+}
+.link:first-child {
+    padding-left: 0;
+}
+.form {
+    margin-top: 45.89px;
+}
+.form-find {
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background: #F2F2F2;
+    
+    color:  #828282;
+    font-size: 18px;
+    font-weight: 400;
+}
