@@ -109,16 +109,12 @@ body {
     overflow: hidden;
     background-color: #F9F9F9
 }
-.button {
+.button-link {
+    text-decoration: none;
     vertical-align: middle;
     color:  #333;
     font-size: 20px;
     font-weight: 500;
-    border: 0px;
-    background-color: transparent;
-}
-.button-link {
-    text-decoration: none;
 }
 .flex-section {
     display: flex;
@@ -210,11 +206,7 @@ body {
     padding-bottom: 100px;
 }
 .arrow-left {
-    margin-right:  25px;
-}
-.arrow-button {
-    border: 0px;
-    background-color: transparent;
+    margin-right: 25px;
 }
 .text-number {
     display: flex;
