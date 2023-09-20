@@ -127,16 +127,16 @@ body {
     margin-top: 44px;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 20px;
 }
-.flex-card, .flex-card4 {
-    width: 280px;
+.flex-card {
+    width: 315px;
     padding: 20px 20px 30px 20px;
     justify-content: center;
     border-radius: 20px;
     border: 1px solid  #F2F2F2;
     background-color: #F9F9F9;
-   align-items: flex-start;
+    align-items: flex-start;
 }
 .caption {
     color: #333;
@@ -149,6 +149,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 130%;
+    gap: 5px;
 }
 .value {
     color: #333;
@@ -240,32 +241,37 @@ body {
     background-color: #333;
 }
 .contacts {
-    display: flex;
     padding-top: 102px;
     padding-bottom: 130px;
-    
 }
-.info-payment {
+.info-payment{
     display: flex;
-    align-items: flex-start;
+}
+.payment {
+    width: 440px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 47px;
 }
 .text-info {
-    margin-right: 47px;
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
 }
 .social {
+    width: 440px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .social-icons:last-child {
     padding-left: 20px;
 }
 .footer-tel {
+    width: 440px;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 .tel2 {
     text-decoration: none;
