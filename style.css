@@ -43,8 +43,8 @@ body {
     justify-content: space-between;
 }
 .links {
-    margin-top: 59px;
-    margin-bottom: 46px;
+    padding-top: 59px;
+    padding-bottom: 46px;
 }
 .active-link, .link {
     color: #4F4F4F;
@@ -53,10 +53,10 @@ body {
     font-weight: 500;
 }
 .link {
-    padding-left: 40px;
+    margin-left: 40px;
 }
 .link:first-child {
-    padding-left: 0;
+    margin-left: 0;
 }
 .form {
     margin-top: 45.89px;
@@ -73,11 +73,8 @@ body {
     font-weight: 400;
     background-image: url(./content/photo_12.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-position: top 15px right 20px;
-}
-.form-find::placeholder {
-    padding: 16px 0 16px 20px
+    background-position: top 11px right 20px;
+    padding: 17px 0 17px 20px;
 }
 .text {
     color: #BDBDBD;
@@ -99,6 +96,7 @@ body {
 }
 .text {
     padding-right: 16px;  
+    text-decoration: none;
 }
 .text:last-child::after {
     content: none;
@@ -126,13 +124,19 @@ body {
     gap: 20px;
 }
 .flex-card {
+    display: inline-flex;
+    flex-direction: column;
     width: 315px;
     padding: 20px 20px 30px 20px;
-    justify-content: center;
     border-radius: 20px;
     border: 1px solid  #F2F2F2;
     background-color: #F9F9F9;
     align-items: flex-start;
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05), -8px -8px 15px 0px #FFF
+}
+.food-pic {
+    width: 275px;
+    height: 227px;
 }
 .caption {
     color: #333;
@@ -197,6 +201,7 @@ body {
     border-radius: 10px;
     border: 1px solid  #BDBDBD;
     background: #FFF;   
+    margin-left: 57px;
 }
 .numbers {
     display: flex;
@@ -256,9 +261,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-.social-icons:last-child {
-    padding-left: 20px;
 }
 .footer-tel {
     width: 440px;
